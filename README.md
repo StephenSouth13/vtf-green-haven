@@ -1,73 +1,51 @@
-# Welcome to your Lovable project
+# 🌿 VTF Green Haven
 
-## Project info
+**VTF Green Haven** là dự án website du lịch và không gian gặp gỡ theo phong cách mới tại Việt Nam. Mục tiêu của dự án là xây dựng một nền tảng số nơi mọi người có thể khám phá, đặt tour, và tìm thấy những trải nghiệm du lịch – cà phê – sự kiện độc đáo, thân thiện với môi trường và kết nối cộng đồng.
 
-**URL**: https://lovable.dev/projects/674b6f00-e94a-49ec-bdfd-ea6b5cdded44
 
-## How can I edit this code?
+## 🧭 Tính năng chính
 
-There are several ways of editing your application.
+- ✨ Giao diện người dùng đẹp, hiện đại, tối ưu cho desktop và mobile.
+- 🗺️ Khám phá tour du lịch, điểm đến, sự kiện.
+- ☕ Đặt chỗ không gian cafe gặp gỡ hoặc không gian tổ chức sự kiện.
+- 🔎 Tìm kiếm, lọc và xem chi tiết tour.
+- 🌘 Hỗ trợ Dark Mode / Light Mode.
+- 🧩 CMS hỗ trợ quản lý nội dung động (dễ mở rộng).
+- 🧠 Được tích hợp AI gợi ý hành trình du lịch phù hợp.
+- 📸 Bộ sưu tập ảnh đẹp, video trải nghiệm.
+- 🔗 Kết nối mạng xã hội, chia sẻ nhanh.
 
-**Use Lovable**
+## 🛠️ Công nghệ sử dụng
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/674b6f00-e94a-49ec-bdfd-ea6b5cdded44) and start prompting.
+| Frontend         | Backend (tùy chọn mở rộng) | Khác                            |
+|------------------|-----------------------------|----------------------------------|
+| Next.js (App Router) | Go / Rust (API + CMS)         | TailwindCSS, TypeScript         |
+| Framer Motion    | Strapi / Directus / Sanity | Vercel (deploy), Markdown       |
+| React Hook Form  | Supabase / PostgreSQL      | Responsive + SEO Optimization   |
+🧑‍💻 Đóng góp
+Chúng tôi luôn chào đón các bạn:
 
-Changes made via Lovable will be committed automatically to this repo.
+Thiết kế UI/UX
 
-**Use your preferred IDE**
+Viết nội dung (copywriter, content creator)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Lập trình frontend/backend
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Tester, Idea Shaper
 
-Follow these steps:
+Hãy tạo một PR hoặc mở Issue để bắt đầu đóng góp!
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+📬 Liên hệ
+📧 Email: stephensouth1307@gmail.com
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+📱 Phone: 0979 137 018
 
-# Step 3: Install the necessary dependencies.
-npm i
+📍 Địa chỉ: TP. Hồ Chí Minh, Việt Nam
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+🌐 Portfolio: https://www.quachthanhlong.com
 
-**Edit a file directly in GitHub**
+🐙 GitHub: @StephenSouth13
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+📘 Facebook: fb.com/stephensouth13
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/674b6f00-e94a-49ec-bdfd-ea6b5cdded44) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+📷 Instagram: @stephensouth13

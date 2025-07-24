@@ -1,26 +1,51 @@
 import { Card, CardContent } from "@/components/ui/card";
 import tourismExperience from "@/assets/tourism-experience.jpg";
+import musicEvent from "@/assets/music.png";
+import workshopImage from "@/assets/2.png"; 
+import cafe from "@/assets/cafe.png";
+import env from "@/assets/env.png"; // Assuming env is an image related to the environment
+
+
+
 
 const experiences = [
   {
-    image: tourismExperience,
-    title: "Tour Khám Phá Núi Rừng",
-    description: "Trải nghiệm thiên nhiên hoang sơ"
+
+    image: musicEvent,
+
+    title: "Đêm nhạc cuối tuần",
+    description: "Trải nghiệm những thanh âm cung bậc cảm xúc"
   },
+
   {
-    image: tourismExperience,
+    image: workshopImage ,
+
+
+
+
     title: "Workshop Cafe Specialty",
-    description: "Học cách pha chế cafe chuyên nghiệp"
+    description: "View chụp hình cực chất",
+
+
   },
+
   {
-    image: tourismExperience,
-    title: "Đêm Giao Lưu Văn Hóa",
-    description: "Kết nối cộng đồng yêu du lịch"
+
+    image: cafe,
+
+
+
+    title: "Coffee Sáng",
+    description: "Mùi hương cà phê thơm lừng",
+
+
   },
+
   {
-    image: tourismExperience,
-    title: "Tour Ẩm Thực Địa Phương",
-    description: "Khám phá hương vị độc đáo"
+
+    image: env,
+    title: "Không gian xanh",
+    description: "Tận hưởng không gian xanh mát, gần gũi với thiên nhiên",
   }
 ];
 
@@ -60,12 +85,12 @@ const ExperienceGallery = () => {
                   </p>
                 </div>
                 
-                {/* Hover Overlay */}
+                {/* Hover Overlay 
                 <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <div className="bg-white/90 backdrop-blur-sm rounded-full px-6 py-3 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
                     <span className="text-primary font-semibold">Xem Chi Tiết</span>
                   </div>
-                </div>
+                </div>*/}
               </CardContent>
             </Card>
           ))}
