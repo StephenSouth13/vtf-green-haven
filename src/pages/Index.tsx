@@ -1,12 +1,25 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import HeroSection from "@/components/vtf/HeroSection";
+import RegistrationForm from "@/components/vtf/RegistrationForm";
+import AboutSection from "@/components/vtf/AboutSection";
+import WhyChooseSection from "@/components/vtf/WhyChooseSection";
+import ExperienceGallery from "@/components/vtf/ExperienceGallery";
+import TestimonialsSection from "@/components/vtf/TestimonialsSection";
+import EventsSection from "@/components/vtf/EventsSection";
+import Footer from "@/components/vtf/Footer";
+import ScrollAnimations from "@/components/vtf/ScrollAnimations";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen">
+      <ScrollAnimations />
+      <HeroSection />
+      <RegistrationForm />
+      <AboutSection />
+      <WhyChooseSection />
+      <ExperienceGallery />
+      <TestimonialsSection />
+      <EventsSection />
+      <Footer />
     </div>
   );
 };

@@ -2,41 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* VTF Home Design System - Fresh Green Tourism & Cafe Brand */
 
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 140 20% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 140 20% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 140 20% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* VTF Fresh Green Primary Colors */
+    --primary: 88 65% 43%;        /* #82C91E */
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 88 75% 73%;  /* #D8F5A2 */
+    
+    --secondary: 88 35% 95%;
+    --secondary-foreground: 140 20% 15%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 88 20% 96%;
+    --muted-foreground: 140 10% 45%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 88 75% 73%;         /* #D8F5A2 */
+    --accent-foreground: 140 20% 15%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 88 20% 90%;
+    --input: 88 15% 94%;
+    --ring: 88 65% 43%;
 
-    --radius: 0.5rem;
+    --radius: 1rem;
+
+    /* VTF Brand Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(88, 65%, 43%), hsl(88, 75%, 73%));
+    --gradient-hero: linear-gradient(135deg, hsl(88, 65%, 43%) 0%, hsl(88, 75%, 73%) 50%, hsl(150, 60%, 85%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(0, 0%, 100%) 0%, hsl(88, 20%, 98%) 100%);
+    
+    /* VTF Shadows & Effects */
+    --shadow-soft: 0 4px 20px hsl(88, 30%, 85%);
+    --shadow-primary: 0 8px 30px hsl(88, 65%, 43%, 0.15);
+    --shadow-floating: 0 15px 40px hsl(88, 40%, 70%, 0.2);
+    
+    /* Animation Variables */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --sidebar-background: 0 0% 98%;
 
@@ -101,5 +115,78 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+@layer components {
+  /* VTF Component Styles */
+  .vtf-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .vtf-hero-bg {
+    background: var(--gradient-hero);
+  }
+  
+  .vtf-card {
+    background: var(--gradient-card);
+    box-shadow: var(--shadow-soft);
+    transition: var(--transition-smooth);
+  }
+  
+  .vtf-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-floating);
+  }
+  
+  .vtf-btn-primary {
+    background: var(--gradient-primary);
+    @apply text-primary-foreground px-8 py-4 rounded-full font-semibold;
+    transition: var(--transition-bounce);
+    box-shadow: var(--shadow-primary);
+  }
+  
+  .vtf-btn-primary:hover {
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: var(--shadow-floating);
+  }
+  
+  .vtf-section {
+    @apply py-16 md:py-24;
+  }
+  
+  .vtf-heading {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6;
+  }
+  
+  .vtf-subheading {
+    @apply text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed;
+  }
+
+  /* Scroll animations */
+  .fade-in-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: var(--transition-smooth);
+  }
+  
+  .fade-in-up.animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--muted));
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--gradient-primary);
+    border-radius: 4px;
   }
 }
