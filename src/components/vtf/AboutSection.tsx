@@ -8,17 +8,16 @@ const AboutSection = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Content */}
           <div className="fade-in-up animate">
-            <h2 className="vtf-heading">Giới Thiệu Về VTF</h2>
+            <h2 className="vtf-heading">Ý NGHĨA VỀ COFFEE OFFLINE</h2>
             <div className="space-y-6">
               <p className="text-lg leading-relaxed text-muted-foreground">
-                VTF Home không chỉ là một không gian cafe thông thường. Chúng tôi là nơi khởi đầu 
-                cho những cuộc phiêu lưu, nơi kết nối những tâm hồn yêu thích khám phá và trải nghiệm.
+               Coffee Offline không chỉ là một không gian cafe thông thường. Chúng tôi là nơi khởi đầu cho những câu chuyện ý nghĩa, nơi kết nối những tâm hồn yêu thích gặp gỡ và chia sẻ.
               </p>
               
               <div className="bg-gradient-to-r from-primary/10 to-accent/10 p-6 rounded-2xl border-l-4 border-primary">
-                <h3 className="text-xl font-bold text-primary mb-3">Sứ Mệnh VTF</h3>
+                <h3 className="text-xl font-bold text-primary mb-3">SỨ MỆNH COFFEE OFFLINE</h3>
                 <p className="text-lg font-medium text-foreground">
-                  "Kết nối trái tim, truyền cảm hứng du lịch."
+                  "Kết nối trái tim, truyền cảm hứng du lịch.""
                 </p>
               </div>
               

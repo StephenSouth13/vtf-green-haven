@@ -10,11 +10,11 @@ const Footer = () => {
 
   return (
     <footer className="bg-gradient-to-br from-foreground to-foreground/90 text-white relative">
-      <div className="vtf-container py-16">
+      <div className="coffee offline-container py-16">
         <div className="grid lg:grid-cols-4 gap-12">
           {/* Logo & Mission */}
           <div className="lg:col-span-2">
-            <h3 className="text-3xl font-bold mb-6 text-primary-light">VTF HOME</h3>
+            <h3 className="text-3xl font-bold mb-6 text-primary-light">coffee offline HOME</h3>
             <p className="text-lg mb-8 text-white/80 leading-relaxed">
               Kết nối trái tim, truyền cảm hứng du lịch. 
               Nơi khởi đầu cho những cuộc gặp gỡ ý nghĩa và trải nghiệm khó quên.
@@ -29,7 +29,7 @@ const Footer = () => {
                     placeholder="Email của bạn..."
                     className="bg-white/20 border-white/30 text-white placeholder:text-white/60"
                   />
-                  <Button className="vtf-btn-primary">
+                  <Button className="coffee offline-btn-primary">
                     Đăng Ký
                   </Button>
                 </div>
@@ -86,14 +86,14 @@ const Footer = () => {
         
         {/* Copyright */}
         <div className="text-center text-white/60">
-          <p>&copy; 2024 VTF Home. Tất cả quyền được bảo lưu.</p>
+          <p>&copy; 2024 coffee offline Home. Tất cả quyền được bảo lưu.</p>
         </div>
       </div>
 
       {/* Back to Top Button */}
       <Button
         onClick={scrollToTop}
-        className="fixed bottom-8 right-8 vtf-btn-primary rounded-full p-3 shadow-lg z-50"
+        className="fixed bottom-8 right-8 coffee offline-btn-primary rounded-full p-3 shadow-lg z-50"
         size="icon"
       >
         <ArrowUp className="w-6 h-6" />

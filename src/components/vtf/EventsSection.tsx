@@ -7,7 +7,7 @@ const events = [
     title: "Workshop: Pha Chế Cafe Chuyên Nghiệp",
     date: "15/12/2024",
     time: "14:00 - 17:00",
-    location: "VTF Home Cafe",
+    location: "coffee offline Home Cafe",
     participants: "20 người",
     description: "Học cách pha chế những ly cafe đặc biệt từ chuyên gia.",
     status: "Đang mở đăng ký"
@@ -16,7 +16,7 @@ const events = [
     title: "Hội Thảo: Xu Hướng Du Lịch 2025",
     date: "22/12/2024",
     time: "19:00 - 21:00",
-    location: "VTF Home Cafe",
+    location: "coffee offline Home Cafe",
     participants: "50 người",
     description: "Cập nhật những xu hướng du lịch mới nhất và cơ hội khám phá.",
     status: "Sắp diễn ra"
@@ -34,12 +34,12 @@ const events = [
 
 const EventsSection = () => {
   return (
-    <section className="vtf-section bg-muted/30">
-      <div className="vtf-container">
+    <section className="coffee offline-section bg-muted/30">
+      <div className="coffee offline-container">
         <div className="text-center mb-16 fade-in-up animate">
-          <h2 className="vtf-heading">Sự Kiện & Hội Thảo Sắp Tới</h2>
-          <p className="vtf-subheading">
-            Tham gia các hoạt động thú vị và bổ ích cùng cộng đồng VTF Home
+          <h2 className="coffee offline-heading">Sự Kiện & Hội Thảo Sắp Tới</h2>
+          <p className="coffee offline-subheading">
+            Tham gia các hoạt động thú vị và bổ ích cùng cộng đồng coffee offline Home
           </p>
         </div>
 
@@ -47,7 +47,7 @@ const EventsSection = () => {
           {events.map((event, index) => (
             <Card 
               key={index} 
-              className="vtf-card border-0 group hover:scale-105 transition-all duration-500"
+              className="coffee offline-card border-0 group hover:scale-105 transition-all duration-500"
             >
               <CardContent className="p-8">
                 {/* Status Badge */}
@@ -88,7 +88,7 @@ const EventsSection = () => {
                 </p>
 
                 {/* CTA Button */}
-                <Button className="vtf-btn-primary w-full">
+                <Button className="coffee offline-btn-primary w-full">
                   Đăng Ký Ngay
                 </Button>
               </CardContent>

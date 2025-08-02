@@ -26,13 +26,13 @@ const features = [
 
 const WhyChooseSection = () => {
   return (
-    <section className="vtf-section bg-muted/20">
-      <div className="vtf-container">
+    <section className="coffee offline-section bg-muted/20">
+      <div className="coffee offline-container">
         <div className="text-center mb-16 fade-in-up animate">
-          <h2 className="vtf-heading">Tại Sao Chọn VTF?</h2>
-          <p className="vtf-subheading max-w-3xl mx-auto">
+          <h2 className="coffee offline-heading">Tại Sao Chọn coffee offline?</h2>
+          <p className="coffee offline-subheading max-w-3xl mx-auto">
             Chúng tôi mang đến những giá trị độc đáo và trải nghiệm khó quên 
-            cho mọi khách hàng tin tưởng lựa chọn VTF.
+            cho mọi khách hàng tin tưởng lựa chọn coffee offline.
           </p>
         </div>
 
@@ -40,7 +40,7 @@ const WhyChooseSection = () => {
           {features.map((feature, index) => (
             <Card 
               key={index} 
-              className="vtf-card border-0 group cursor-pointer hover:scale-105 transition-all duration-500"
+              className="coffee offline-card border-0 group cursor-pointer hover:scale-105 transition-all duration-500"
             >
               <CardContent className="p-8 text-center">
                 <div className="mb-6 relative">

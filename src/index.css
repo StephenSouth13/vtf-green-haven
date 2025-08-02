@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* VTF Home Design System - Fresh Green Tourism & Cafe Brand */
+/* coffee offline Home Design System - Fresh Green Tourism & Cafe Brand */
 
 @layer base {
   :root {
@@ -15,7 +15,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 140 20% 15%;
 
-    /* VTF Fresh Green Primary Colors */
+    /* coffee offline Fresh Green Primary Colors */
     --primary: 88 65% 43%;        /* #82C91E */
     --primary-foreground: 0 0% 100%;
     --primary-light: 88 75% 73%;  /* #D8F5A2 */
@@ -38,12 +38,12 @@
 
     --radius: 1rem;
 
-    /* VTF Brand Gradients */
+    /* coffee offline Brand Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(88, 65%, 43%), hsl(88, 75%, 73%));
     --gradient-hero: linear-gradient(135deg, hsl(88, 65%, 43%) 0%, hsl(88, 75%, 73%) 50%, hsl(150, 60%, 85%) 100%);
     --gradient-card: linear-gradient(145deg, hsl(0, 0%, 100%) 0%, hsl(88, 20%, 98%) 100%);
     
-    /* VTF Shadows & Effects */
+    /* coffee offline Shadows & Effects */
     --shadow-soft: 0 4px 20px hsl(88, 30%, 85%);
     --shadow-primary: 0 8px 30px hsl(88, 65%, 43%, 0.15);
     --shadow-floating: 0 15px 40px hsl(88, 40%, 70%, 0.2);
@@ -120,47 +120,47 @@
 }
 
 @layer components {
-  /* VTF Component Styles */
-  .vtf-container {
+  /* coffee offline Component Styles */
+  .coffee offline-container {
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
   
-  .vtf-hero-bg {
+  .coffee offline-hero-bg {
     background: var(--gradient-hero);
   }
   
-  .vtf-card {
+  .coffee offline-card {
     background: var(--gradient-card);
     box-shadow: var(--shadow-soft);
     transition: var(--transition-smooth);
   }
   
-  .vtf-card:hover {
+  .coffee offline-card:hover {
     transform: translateY(-8px);
     box-shadow: var(--shadow-floating);
   }
   
-  .vtf-btn-primary {
+  .coffee offline-btn-primary {
     background: var(--gradient-primary);
     @apply text-primary-foreground px-8 py-4 rounded-full font-semibold;
     transition: var(--transition-bounce);
     box-shadow: var(--shadow-primary);
   }
   
-  .vtf-btn-primary:hover {
+  .coffee offline-btn-primary:hover {
     transform: translateY(-2px) scale(1.05);
     box-shadow: var(--shadow-floating);
   }
   
-  .vtf-section {
+  .coffee offline-section {
     @apply py-16 md:py-24;
   }
   
-  .vtf-heading {
+  .coffee offline-heading {
     @apply text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6;
   }
   
-  .vtf-subheading {
+  .coffee offline-subheading {
     @apply text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed;
   }
 

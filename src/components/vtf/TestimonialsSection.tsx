@@ -5,7 +5,7 @@ const testimonials = [
   {
     name: "Minh Anh",
     role: "Blogger Du Lịch",
-    content: "VTF Home đã mang đến cho tôi những trải nghiệm du lịch tuyệt vời nhất. Không gian cafe ấm cúng và đội ngũ tư vấn rất chuyên nghiệp.",
+    content: "coffee offline Home đã mang đến cho tôi những trải nghiệm du lịch tuyệt vời nhất. Không gian cafe ấm cúng và đội ngũ tư vấn rất chuyên nghiệp.",
     rating: 5,
     avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b1b7?w=100&h=100&fit=crop&crop=face"
   },
@@ -19,7 +19,7 @@ const testimonials = [
   {
     name: "Thu Hương",
     role: "Giảng viên",
-    content: "Không chỉ là nơi thưởng thức cafe ngon, VTF còn là điểm đến lý tưởng để gặp gỡ những người bạn cùng đam mê du lịch.",
+    content: "Không chỉ là nơi thưởng thức cafe ngon, coffee offline còn là điểm đến lý tưởng để gặp gỡ những người bạn cùng đam mê du lịch.",
     rating: 5,
     avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face"
   }
@@ -27,12 +27,12 @@ const testimonials = [
 
 const TestimonialsSection = () => {
   return (
-    <section className="vtf-section bg-gradient-to-br from-primary/5 to-accent/10">
-      <div className="vtf-container">
+    <section className="coffee offline-section bg-gradient-to-br from-primary/5 to-accent/10">
+      <div className="coffee offline-container">
         <div className="text-center mb-16 fade-in-up animate">
-          <h2 className="vtf-heading">Feedback Từ Khách Hàng</h2>
-          <p className="vtf-subheading">
-            Những chia sẻ chân thực từ khách hàng đã trải nghiệm dịch vụ tại VTF Home
+          <h2 className="coffee offline-heading">Feedback Từ Khách Hàng</h2>
+          <p className="coffee offline-subheading">
+            Những chia sẻ chân thực từ khách hàng đã trải nghiệm dịch vụ tại coffee offline Home
           </p>
         </div>
 
@@ -40,7 +40,7 @@ const TestimonialsSection = () => {
           {testimonials.map((testimonial, index) => (
             <Card 
               key={index} 
-              className="vtf-card border-0 group hover:scale-105 transition-all duration-500"
+              className="coffee offline-card border-0 group hover:scale-105 transition-all duration-500"
             >
               <CardContent className="p-8 relative">
                 {/* Quote Icon */}

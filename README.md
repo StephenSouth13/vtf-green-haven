@@ -1,6 +1,6 @@
-# 🌿 VTF Green Haven
+# 🌿 coffee offline Green Haven
 
-**VTF Green Haven** là dự án website du lịch và không gian gặp gỡ theo phong cách mới tại Việt Nam. Mục tiêu của dự án là xây dựng một nền tảng số nơi mọi người có thể khám phá, đặt tour, và tìm thấy những trải nghiệm du lịch – cà phê – sự kiện độc đáo, thân thiện với môi trường và kết nối cộng đồng.
+**coffee offline Green Haven** là dự án website du lịch và không gian gặp gỡ theo phong cách mới tại Việt Nam. Mục tiêu của dự án là xây dựng một nền tảng số nơi mọi người có thể khám phá, đặt tour, và tìm thấy những trải nghiệm du lịch – cà phê – sự kiện độc đáo, thân thiện với môi trường và kết nối cộng đồng.
 
 
 ## 🧭 Tính năng chính

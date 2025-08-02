@@ -50,20 +50,20 @@ const RegistrationForm = () => {
   };
 
   return (
-    <section id="registration-form" className="vtf-section bg-muted/30">
-      <div className="vtf-container">
+    <section id="registration-form" className="coffee offline-section bg-muted/30">
+      <div className="coffee offline-container">
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-12 fade-in-up animate">
-            <h2 className="vtf-heading">Đăng Ký Trải Nghiệm</h2>
-            <p className="vtf-subheading">
+            <h2 className="coffee offline-heading">Đăng Ký Trải Nghiệm</h2>
+            <p className="coffee offline-subheading">
               Hãy để lại thông tin để chúng tôi tư vấn và thiết kế trải nghiệm phù hợp nhất cho bạn.
             </p>
           </div>
 
-          <Card className="vtf-card border-0 shadow-lg">
+          <Card className="coffee offline-card border-0 shadow-lg">
             <CardHeader className="text-center pb-6">
               <CardTitle className="text-2xl font-bold text-primary">
-                Bắt Đầu Hành Trình Cùng VTF
+                Bắt Đầu Hành Trình Cùng coffee offline
               </CardTitle>
             </CardHeader>
             <CardContent>
@@ -122,7 +122,7 @@ const RegistrationForm = () => {
                 <Button
                   type="submit"
                   disabled={isSubmitting}
-                  className="vtf-btn-primary w-full py-6 text-lg"
+                  className="coffee offline-btn-primary w-full py-6 text-lg"
                 >
                   {isSubmitting ? "Đang gửi..." : "Gửi Đăng Ký"}
                 </Button>
